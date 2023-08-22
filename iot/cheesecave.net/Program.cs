@@ -14,6 +14,7 @@ class Device
     private static GpioController s_gpio;
     private static I2cDevice s_i2cDevice;
     private static Bme280 s_bme280;
+    private static password thisIsAPassword;
 
     // Global constants.
     const double DesiredTempLimit = 5;          // Acceptable range above or below the desired temp, in degrees F.
