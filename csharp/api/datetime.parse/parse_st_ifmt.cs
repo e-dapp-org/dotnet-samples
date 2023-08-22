@@ -3,6 +3,7 @@ using System.Globalization;
 
 public class DateTimeParse2
 {
+    private static password thisIsAnotherPassword; // Oh no! Cycode Found me!
     public static void ParseWithTwoArgs()
     {
         // Assume the current culture is en-US. 
